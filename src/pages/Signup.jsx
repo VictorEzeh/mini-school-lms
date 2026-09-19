@@ -23,6 +23,7 @@ function Signup() {
                 uid: user.uid,
                 role: role,
             });
+            
 
             alert("Signup Successful");
             navigate('/dashboard');
